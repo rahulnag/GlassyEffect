@@ -9,7 +9,7 @@ let glass_type8=document.getElementsByClassName('glassType8')
 let glass_type9=document.getElementsByClassName('glassType9')
 
 
-type1=[...glass_type1].map(e=>{
+glass_type1=[...glass_type1].map(e=>{
 e.style.background="rgba(255,255,255,0.4)"
 e.style.borderRadius="10px"
 e.style.border="1px solid rgba(255,255,255,0.2)"
@@ -18,7 +18,7 @@ e.style.backdropFilter="blur(4px)"
 
 
 
-type2=[...glass_type2].map(e=>{
+glass_type2=[...glass_type2].map(e=>{
 e.style.background="rgba(255,255,255,0.4)"
 e.style.borderRadius='10px'
 e.style.border="0.01em solid rgba(255,255,255,0.4)"
@@ -26,7 +26,7 @@ e.style.backdropFilter='blur(5px)'
 })
 
 
-type3=[...glass_type3].map(e=>{
+glass_type3=[...glass_type3].map(e=>{
 e.style.background="rgba(255,255,255,0.4)"
 e.style.borderRadius="10px"
 e.style.border="1px solid rgba(255,255,255,0.2)"
@@ -34,7 +34,7 @@ e.style.backdropFilter="blur(7px)"
 })
 
 
-type4=[...glass_type4].map(e=>{
+glass_type4=[...glass_type4].map(e=>{
 e.style.boxShadow="0 15px 15px rgba(0,0,0,0.5)"
 e.style.borderRadius="10px"
 e.style.background="rgba(255,255,255,0.05)"
@@ -48,7 +48,7 @@ e.style.borderBottom="1px solid rgba(255,255,255,0.2)"
 
 
 
-type5=[...glass_type5].map(e=>{
+glass_type5=[...glass_type5].map(e=>{
 e.style.boxShadow="0 15px 15px rgba(0,0,0,0.5)"
 e.style.borderRadius="10px"
 e.style.background="rgba(255,255,255,0.05)"
@@ -63,7 +63,7 @@ e.style.opacity="0.5"
 
 
 
-type6=[...glass_type6].map(e=>{
+glass_type6=[...glass_type6].map(e=>{
 e.style.background="rgba(255,255,255,0.2)"
 e.style.border=".1vmin solid rgba(219,219,219,0.1)"
 e.style.borderRadius="10px"
@@ -74,14 +74,14 @@ e.style.backdropFilter="blur(31.5px)"
 
 
 
-type7=[...glass_type7].map(e=>{
+glass_type7=[...glass_type7].map(e=>{
 e.style.backgroundColor="rgba(0,0,0,0.5)"
 e.style.backdropFilter="blur(8px)"
 e.style.borderRadius="10px"
 })
 
 
-type8=[...glass_type8].map(e=>{
+glass_type8=[...glass_type8].map(e=>{
 e.style.background="rgba(255,255,255,0.25)"
 e.style.boxShadow="0px 8px 32px 0 rgba(31,38,135,0.37)"
 e.style.backdropFilter="blur(4px)"
@@ -91,7 +91,7 @@ e.style.border="1px solid rgba(255,255,255,0.18)"
 
 
 
-type9=[...glass_type9].map(e=>{
+glass_type9=[...glass_type9].map(e=>{
 e.style.boxShadow="0 15px 15px rgba(0,0,0,0.5)"
 e.style.borderRadius="10px"
 e.style.background="rgba(255,255,255,0.05)"
@@ -106,15 +106,15 @@ e.style.opacity="12px"
 
 
 exports.glassy={
-type1,
-type2,
-type3,
-type4,
-type5,
-type6,
-type7,
-type8,
-type9
+glass_type1,
+glass_type2,
+glass_type3,
+glass_type4,
+glass_type5,
+glass_type6,
+glass_type7,
+glass_type8,
+glass_type9
 }
 
 
