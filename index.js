@@ -105,17 +105,17 @@ e.style.opacity="12px"
 })
 
 
-exports.glassy={
-glass_type1,
-glass_type2,
-glass_type3,
-glass_type4,
-glass_type5,
-glass_type6,
-glass_type7,
-glass_type8,
-glass_type9
-}
+//exports.glassy={
+//glass_type1,
+//glass_type2,
+//glass_type3,
+//glass_type4,
+//glass_type5,
+//glass_type6,
+//glass_type7,
+//glass_type8,
+//glass_type9
+//}
 
 
 // export{glass_type1,
