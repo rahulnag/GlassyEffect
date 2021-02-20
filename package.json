@@ -1,6 +1,6 @@
 {
   "name": "glassyeffect",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "its a glassmorphism package to get the glass effects",
   "main": "index.js",
   "scripts": {
