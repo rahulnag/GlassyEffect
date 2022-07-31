@@ -1,12 +1,43 @@
 # This is a lightweight(1.1KB) Glassmorphism Library to get the GLASSY effect in any of your frontend project.
 
 ## Installation:
+
+USING NPM:
+
+```js 
+npm install glassyeffect
+```
+and in your ReactJS file
+```js
+import 'glassyeffect'
+
+```
+and in your css file
+
+```css
+
+@import "glassyeffect/index.css";
+or
+@import "glassyeffect";
+
+```
+
+or
+
+add below line of code in your html file
+```js
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/glassyeffect@1.1.7/index.css"
+/>
+```
+**or** 
 CDN LINK:
-[https://cdn.jsdelivr.net/npm/glassyeffect@1.1.0/index.js](https://cdn.jsdelivr.net/npm/glassyeffect@1.1.0/index.js)
+[https://cdn.jsdelivr.net/npm/glassyeffect@1.1.7/index.css](https://cdn.jsdelivr.net/npm/glassyeffect@1.1.7/index.css)
 
 import this CDN link at the end of your body closing tag and write the class of the effect which you want in your project.
 ```javascript
-<script src="https://cdn.jsdelivr.net/npm/glassyeffect@1.1.0/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glassyeffect@1.1.7/index.css"></script>
 ```
 
 <br/>
@@ -30,7 +61,7 @@ NOTE: Feel free to create an issue
 
 ### STEP1: IMPORT THIS LIBRARY AT END OF BODY TAG 
 ```javascript
-<script src="https://cdn.jsdelivr.net/npm/glassyeffect@1.1.0/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glassyeffect@1.1.7/index.css"></script>
 ```
 
 <br/>
